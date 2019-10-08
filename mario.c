@@ -13,7 +13,7 @@ int main(void)
     
     for(int column = 0; column < height; column++)
     {
-       for (int spaces = height; spaces > column; spaces--)
+       for (int spaces = height; spaces > column + 1; spaces--)
        {
           printf(" "); 
        }
