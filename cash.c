@@ -12,7 +12,8 @@ int main(void)
         {
             break;
         }
-    } while(true);
+    } 
+    while(true);
     int cents = float(input * 100);
     int numberOfQuarters = (int)((cents / 25)); // Calculating the number of Quarters
     int numberOfDimes = (int)((cents - numberOfQuarters * 25) / (10)); // Calculating the number of Dimes
